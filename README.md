@@ -9,7 +9,7 @@ Basic Arithmetic Operations: Addition, subtraction, multiplication, and division
 
 **Advanced Functions:**
 
-Trigonometric functions ('sin', cos, tan, cot, asin, acos, atan, acot).
+Trigonometric functions (sin, cos, tan, cot, asin, acos, atan, acot).
 
 Hyperbolic functions (sinh, cosh, tanh, coth).
 
@@ -33,22 +33,23 @@ Customizable Interface: Change the background color of the calculator.
 
 Real-Time Calculations: Perform calculations and display results instantly.
 
-Requirements
+**Requirements**
 MATLAB R2013a or later (since the code uses str2double and other modern functions).
 
 No additional toolboxes are required.
 
-Installation
+**Installation**
 Clone or download this repository to your local machine.
 
 Open MATLAB and navigate to the project directory.
 
-Run the main GUI file projecta.m to launch the calculator.
+Run the main file projecta.m to launch the calculator.
 
-matlab
-Copy
+```matlab
 >> run projecta.m
-Usage
+```
+
+**Usage**
 Basic Calculations:
 
 Use the number buttons (0-9) and arithmetic operators (+, -, *, /) to perform calculations.
@@ -67,7 +68,7 @@ Store values in memory using the M1 to M5 buttons.
 
 Recall stored values by clicking the corresponding memory button.
 
-Customization:
+**Customization:**
 
 Change the background color of the calculator using the Color menu.
 
