@@ -73,4 +73,13 @@ Run the main file projecta.m to launch the calculator.
 >> run projecta.m
 ```
 
-Screenshots
+**Screenshot**
+
+![Main GUI](Screenshot1.png)
+
+
+**Additional Feature:**
+
+Degree/Radian Conversion: 
+
+This project also includes an extra GUI for converting angles between degrees and radians. You can access this feature in "extra" to easily switch between the two units for trigonometric calculations.
