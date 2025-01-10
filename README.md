@@ -32,7 +32,7 @@ Customizable Interface: Change the background color of the calculator(Red, Green
 
 Real-Time Calculations: Perform calculations and display results instantly.
 
-**Notable Feature**
+## Notable Features
 
 No Leading Zeros: You cannot start writing 0 or 000 directly. If you try to input 0 or 000 at the beginning, the GUI will ignore it.
 
@@ -55,7 +55,9 @@ Add Note to Top Cell: Use the Add button to append the content of the Note secti
 
 Clear Note: Use the Clean button to clear the content of the Note section.
 
-**Requirements**
+Timer Functionality: The Start and Stop buttons work like MATLAB's tic and toc functions, allowing you to measure elapsed time.
+
+## Requirements
 MATLAB R2013a or later (since the code uses str2double and other modern functions).
 
 No additional toolboxes are required.
