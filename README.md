@@ -34,7 +34,26 @@ Real-Time Calculations: Perform calculations and display results instantly.
 
 **Notable Feature**
 
+No Leading Zeros: You cannot start writing 0 or 000 directly. If you try to input 0 or 000 at the beginning, the GUI will ignore it.
 
+Decimal Point Handling: If you push the . button, it automatically adds 0. to the input.
+
+Note Functionality: The Note section is located in the middle-bottom part of the GUI. It acts as a small MATLAB command window where you can write and manipulate text.
+
+Key Features:
+Get Content from Top Cell:
+
+You can retrieve the content from the top calculation cell and display it in the Note section.
+
+This is useful for saving intermediate results or notes.
+
+Change Note Content: Use the Change button to make the Note section editable.After editing, you can save the changes by clicking the Save button.
+
+Save Note: Once you click Save, the Note section becomes read-only, and you cannot modify it unless you click Change again.
+
+Add Note to Top Cell: Use the Add button to append the content of the Note section to the top calculation cell (text1).
+
+Clear Note: Use the Clean button to clear the content of the Note section.
 
 **Requirements**
 MATLAB R2013a or later (since the code uses str2double and other modern functions).
@@ -51,34 +70,5 @@ Run the main file projecta.m to launch the calculator.
 ```matlab
 >> run projecta.m
 ```
-
-**Usage**
-Basic Calculations:
-
-Use the number buttons (0-9) and arithmetic operators (+, -, *, /) to perform calculations.
-
-Press the = button to compute the result.
-
-Advanced Functions:
-
-Use the dedicated buttons for trigonometric, logarithmic, and other advanced functions.
-
-For example, click sin to calculate the sine of a number.
-
-Memory Operations:
-
-Store values in memory using the M1 to M5 buttons.
-
-Recall stored values by clicking the corresponding memory button.
-
-**Customization:**
-
-Change the background color of the calculator using the Color menu.
-
-Polynomial and Matrix Operations:
-
-Use the poly, roots, polyint, and polyder buttons for polynomial operations.
-
-Use the gcd, lcm, mod, and rem buttons for matrix operations.
 
 Screenshots
