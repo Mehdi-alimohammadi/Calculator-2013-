@@ -75,7 +75,9 @@ Run the main file projecta.m to launch the calculator.
 
 **Screenshot**
 
-![Main GUI](Screenshot1.png)
+<div align="center">
+  <img src="Screenshot1.png" alt="Calculator Interface" width="500">
+</div>
 
 
 **Additional Feature:**
