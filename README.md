@@ -1,15 +1,15 @@
-# Calculator-2013-
+# Calculator-Project year: 2013-
 This is my final project for MATLAB programing course in 2013
 MATLAB Scientific Calculator GUI
 Project Overview
 This MATLAB-based Graphical User Interface (GUI) is a scientific calculator designed to perform a wide range of mathematical operations, including arithmetic, trigonometric, logarithmic, matrix, and polynomial calculations. The GUI is user-friendly and provides a convenient way to perform complex computations interactively.
 
-Features
+**Features**
 Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
 
-Advanced Functions:
+**Advanced Functions:**
 
-Trigonometric functions (sin, cos, tan, cot, asin, acos, atan, acot).
+Trigonometric functions ('sin', cos, tan, cot, asin, acos, atan, acot).
 
 Hyperbolic functions (sinh, cosh, tanh, coth).
 
